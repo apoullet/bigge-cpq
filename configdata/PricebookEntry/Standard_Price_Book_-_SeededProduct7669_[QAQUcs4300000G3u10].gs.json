@@ -1,0 +1,26 @@
+{
+  "Object": "PricebookEntry",
+  "Fields": {
+    "GearsetDisplayName": "Standard Price Book - SeededProduct7669",
+    "GearsetExternalId__c": "QAQUcs4300000G3u10",
+    "IsActive": "true",
+    "UnitPrice": "7669.0",
+    "UseStandardPrice": "false"
+  },
+  "References": [
+    {
+      "Name": "Pricebook2",
+      "ReferencedObject": "Pricebook2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "StandardPriceBook"
+      }
+    },
+    {
+      "Name": "Product2",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "KAQaSmY100000G3t10"
+      }
+    }
+  ]
+}

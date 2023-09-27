@@ -1,0 +1,34 @@
+{
+  "Object": "SBQQ__ProcessInput__c",
+  "Fields": {
+    "GearsetDisplayName": "Input",
+    "GearsetExternalId__c": "IAA5Ruk000000d8d0a",
+    "Name": "Input",
+    "SBQQ__Active__c": "true",
+    "SBQQ__BinaryChoice__c": "",
+    "SBQQ__ConditionsMet__c": "Any",
+    "SBQQ__DefaultField__c": "",
+    "SBQQ__DisplayOrder__c": "1.0",
+    "SBQQ__InputField__c": "BinaryChoice__c",
+    "SBQQ__IntegerInput__c": "",
+    "SBQQ__Label__c": "Label",
+    "SBQQ__Operator__c": "equals",
+    "SBQQ__ProductField__c": "Product Name"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__ProcessInputCondition__r",
+      "ReferencedObject": "SBQQ__ProcessInputCondition__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__QuoteProcess__r",
+      "ReferencedObject": "SBQQ__QuoteProcess__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "IAAgNos000000d8n0a"
+      }
+    }
+  ]
+}

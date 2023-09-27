@@ -1,0 +1,25 @@
+{
+  "Object": "SBQQ__PriceRule__c",
+  "Fields": {
+    "GearsetDisplayName": "Test Price Rule",
+    "GearsetExternalId__c": "QAUIlja000000L4Y0a",
+    "Name": "Test Price Rule",
+    "SBQQ__Active__c": "true",
+    "SBQQ__AdvancedCondition__c": "",
+    "SBQQ__ConditionsMet__c": "All",
+    "SBQQ__ConfiguratorEvaluationEvent__c": "",
+    "SBQQ__EvaluationEvent__c": "On Calculate",
+    "SBQQ__EvaluationOrder__c": "",
+    "SBQQ__LookupObject__c": "SBQQ__LookupData__c",
+    "SBQQ__TargetObject__c": "Calculator"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__Product__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "EAQ8jLb000000L4t10"
+      }
+    }
+  ]
+}

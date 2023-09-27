@@ -1,0 +1,9 @@
+{
+  "Object": "SBQQ__AttributeSet__c",
+  "Fields": {
+    "GearsetDisplayName": "Mounting Kit",
+    "GearsetExternalId__c": "AAQit6n200000L400a",
+    "Name": "Mounting Kit"
+  },
+  "References": []
+}

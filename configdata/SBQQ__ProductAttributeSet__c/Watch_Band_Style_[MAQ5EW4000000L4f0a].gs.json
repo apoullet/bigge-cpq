@@ -1,0 +1,24 @@
+{
+  "Object": "SBQQ__ProductAttributeSet__c",
+  "Fields": {
+    "GearsetDisplayName": "Watch Band Style",
+    "GearsetExternalId__c": "MAQ5EW4000000L4f0a",
+    "SBQQ__Sequence__c": "10.0"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__AttributeSet__r",
+      "ReferencedObject": "SBQQ__AttributeSet__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "IAQ7Y5n200000L400a"
+      }
+    },
+    {
+      "Name": "SBQQ__ProductOption__r",
+      "ReferencedObject": "SBQQ__ProductOption__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "SAQFxuQ000000L4i0a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "Object": "SBQQ__AttributeSet__c",
+  "Fields": {
+    "GearsetDisplayName": "Watch Band Style",
+    "GearsetExternalId__c": "IAQ7Y5n200000L400a",
+    "Name": "Watch Band Style"
+  },
+  "References": []
+}

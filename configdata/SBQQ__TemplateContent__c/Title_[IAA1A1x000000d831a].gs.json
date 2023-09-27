@@ -1,0 +1,17 @@
+{
+  "Object": "SBQQ__TemplateContent__c",
+  "Fields": {
+    "GearsetDisplayName": "Title",
+    "GearsetExternalId__c": "IAA1A1x000000d831a",
+    "Name": "Title",
+    "SBQQ__CustomSource__c": "",
+    "SBQQ__FontFamily__c": "",
+    "SBQQ__FontSize__c": "12.0",
+    "SBQQ__Markup__c": "",
+    "SBQQ__RawMarkup__c": "&#60;h2&#62;Hello&#60;/h2&#62;",
+    "SBQQ__TableStyle__c": "Standard",
+    "SBQQ__TextColor__c": "A3A3A3",
+    "SBQQ__Type__c": "HTML"
+  },
+  "References": []
+}

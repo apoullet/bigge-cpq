@@ -1,0 +1,48 @@
+{
+  "Object": "SBQQ__Dimension__c",
+  "Fields": {
+    "GearsetDisplayName": "Yearly Ramps",
+    "GearsetExternalId__c": "SAUOuvD000000L4C0a",
+    "Name": "Yearly Ramps",
+    "SBQQ__CostEditable__c": "Inherit",
+    "SBQQ__DefaultQuantity__c": "",
+    "SBQQ__NonDiscountable__c": "Inherit",
+    "SBQQ__NonPartnerDiscountable__c": "Inherit",
+    "SBQQ__PriceEditable__c": "Inherit",
+    "SBQQ__QuantityEditable__c": "Inherit",
+    "SBQQ__QuantityScale__c": "",
+    "SBQQ__Taxable__c": "Inherit",
+    "SBQQ__Type__c": "Year",
+    "SBQQ__UnitPrice__c": ""
+  },
+  "References": [
+    {
+      "Name": "SBQQ__DiscountSchedule__r",
+      "ReferencedObject": "SBQQ__DiscountSchedule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__PriceBook__r",
+      "ReferencedObject": "Pricebook2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__Product__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "IAQyLd3100000L4t10"
+      }
+    },
+    {
+      "Name": "SBQQ__TermDiscountSchedule__r",
+      "ReferencedObject": "SBQQ__DiscountSchedule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    }
+  ]
+}

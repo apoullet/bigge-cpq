@@ -1,0 +1,35 @@
+{
+  "Object": "SBQQ__BlockPrice__c",
+  "Fields": {
+    "GearsetDisplayName": "Small",
+    "GearsetExternalId__c": "YAAJRzb100000d820a",
+    "Name": "Small",
+    "SBQQ__EffectiveDate__c": "",
+    "SBQQ__LowerBound__c": "1.0",
+    "SBQQ__Price__c": "3.0",
+    "SBQQ__UpperBound__c": "5.0"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__OriginalBlockPrice__r",
+      "ReferencedObject": "SBQQ__BlockPrice__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__PriceBook2__r",
+      "ReferencedObject": "Pricebook2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "StandardPriceBook"
+      }
+    },
+    {
+      "Name": "SBQQ__Product__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "CAA7w4D100000d8t10"
+      }
+    }
+  ]
+}

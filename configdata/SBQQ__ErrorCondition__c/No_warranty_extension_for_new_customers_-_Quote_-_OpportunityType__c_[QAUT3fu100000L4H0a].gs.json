@@ -1,0 +1,43 @@
+{
+  "Object": "SBQQ__ErrorCondition__c",
+  "Fields": {
+    "GearsetDisplayName": "No warranty extension for new customers - Quote - OpportunityType__c",
+    "GearsetExternalId__c": "QAUT3fu100000L4H0a",
+    "SBQQ__FilterType__c": "Value",
+    "SBQQ__FilterValue__c": "New Customer",
+    "SBQQ__Index__c": "",
+    "SBQQ__Operator__c": "equals",
+    "SBQQ__TestedField__c": "OpportunityType__c",
+    "SBQQ__TestedObject__c": "Quote"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__FilterVariable__r",
+      "ReferencedObject": "SBQQ__SummaryVariable__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__Rule__r",
+      "ReferencedObject": "SBQQ__ProductRule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "UAQRsEd000000L4j0a"
+      }
+    },
+    {
+      "Name": "SBQQ__TestedAttribute__r",
+      "ReferencedObject": "SBQQ__ProductAttribute__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__TestedVariable__r",
+      "ReferencedObject": "SBQQ__SummaryVariable__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    }
+  ]
+}

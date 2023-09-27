@@ -1,0 +1,27 @@
+{
+  "Object": "SBQQ__TermCondition__c",
+  "Fields": {
+    "GearsetDisplayName": "List Amount",
+    "GearsetExternalId__c": "CAAy1pY000000d851a",
+    "SBQQ__Index__c": "",
+    "SBQQ__Operator__c": "equals",
+    "SBQQ__TestedField__c": "List Amount",
+    "SBQQ__Value__c": "15"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__QuoteTerm__r",
+      "ReferencedObject": "SBQQ__QuoteTerm__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "EAAzbPx000000d8p0a"
+      }
+    },
+    {
+      "Name": "SBQQ__TestedVariable__r",
+      "ReferencedObject": "SBQQ__SummaryVariable__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    }
+  ]
+}

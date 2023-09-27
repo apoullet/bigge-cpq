@@ -1,0 +1,19 @@
+{
+  "Object": "IndustryPrice__c",
+  "Fields": {
+    "GearsetDisplayName": "SAEXt8H000000d8Q1a",
+    "GearsetExternalId__c": "SAEXt8H000000d8Q1a",
+    "IPIndustry__c": "Healthcare",
+    "IPPrice__c": "595.0",
+    "IPSLA__c": "Bronze"
+  },
+  "References": [
+    {
+      "Name": "IPProduct__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "CAAmw4D100000d8t10"
+      }
+    }
+  ]
+}

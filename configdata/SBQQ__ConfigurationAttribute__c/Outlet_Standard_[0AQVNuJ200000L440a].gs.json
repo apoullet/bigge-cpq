@@ -1,0 +1,37 @@
+{
+  "Object": "SBQQ__ConfigurationAttribute__c",
+  "Fields": {
+    "GearsetDisplayName": "Outlet Standard",
+    "GearsetExternalId__c": "0AQVNuJ200000L440a",
+    "Name": "Outlet Standard",
+    "SBQQ__AppliedImmediately__c": "false",
+    "SBQQ__ApplyToProductOptions__c": "true",
+    "SBQQ__AutoSelect__c": "false",
+    "SBQQ__ColumnOrder__c": "1",
+    "SBQQ__DefaultField__c": "",
+    "SBQQ__DefaultObject__c": "",
+    "SBQQ__DisplayOrder__c": "10.0",
+    "SBQQ__HiddenValues__c": "TypeL",
+    "SBQQ__Hidden__c": "false",
+    "SBQQ__Position__c": "Top",
+    "SBQQ__Required__c": "true",
+    "SBQQ__ShownValues__c": "",
+    "SBQQ__TargetField__c": "Outlet_Standard__c"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__Feature__r",
+      "ReferencedObject": "SBQQ__ProductFeature__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "IAQnUi8000000L4h0a"
+      }
+    },
+    {
+      "Name": "SBQQ__Product__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "UAAG6Da000000d8t10"
+      }
+    }
+  ]
+}

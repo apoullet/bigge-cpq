@@ -1,0 +1,27 @@
+{
+  "Object": "SBQQ__SummaryVariable__c",
+  "Fields": {
+    "GearsetDisplayName": "Laptop Asset Sum",
+    "GearsetExternalId__c": "YAQNEv0000000L411a",
+    "Name": "Laptop Asset Sum",
+    "SBQQ__AggregateField__c": "Quantity",
+    "SBQQ__AggregateFunction__c": "Sum",
+    "SBQQ__CompositeOperator__c": "",
+    "SBQQ__ConstraintField__c": "",
+    "SBQQ__FilterField__c": "ProductCode",
+    "SBQQ__FilterValue__c": "LAPTOP1",
+    "SBQQ__Operator__c": "starts with",
+    "SBQQ__Scope__c": "Quote",
+    "SBQQ__TargetObject__c": "Asset",
+    "SBQQ__ValueElement__c": ""
+  },
+  "References": [
+    {
+      "Name": "SBQQ__CombineWith__r",
+      "ReferencedObject": "SBQQ__SummaryVariable__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    }
+  ]
+}

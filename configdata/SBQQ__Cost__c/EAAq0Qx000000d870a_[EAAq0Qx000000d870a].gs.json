@@ -1,0 +1,18 @@
+{
+  "Object": "SBQQ__Cost__c",
+  "Fields": {
+    "GearsetDisplayName": "EAAq0Qx000000d870a",
+    "GearsetExternalId__c": "EAAq0Qx000000d870a",
+    "SBQQ__Active__c": "true",
+    "SBQQ__UnitCost__c": "375.0"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__Product__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "CAArv4D100000d8t10"
+      }
+    }
+  ]
+}

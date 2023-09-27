@@ -1,0 +1,27 @@
+{
+  "Object": "SBQQ__ProcessInputCondition__c",
+  "Fields": {
+    "GearsetDisplayName": "Condition - Input",
+    "GearsetExternalId__c": "IAA1Xps000000d8b0a",
+    "Name": "Condition",
+    "SBQQ__Active__c": "true",
+    "SBQQ__Operator__c": "equals",
+    "SBQQ__Value__c": "A"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__MasterProcessInput__r",
+      "ReferencedObject": "SBQQ__ProcessInput__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "IAA5Ruk000000d8d0a"
+      }
+    },
+    {
+      "Name": "SBQQ__ProcessInput__r",
+      "ReferencedObject": "SBQQ__ProcessInput__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "IAA5Ruk000000d8d0a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "Object": "SBQQ__ErrorCondition__c",
+  "Fields": {
+    "GearsetDisplayName": "Enforce Microinverter Quantity - Microinverter Sum",
+    "GearsetExternalId__c": "QAUGmfu100000L4H0a",
+    "SBQQ__FilterType__c": "Variable",
+    "SBQQ__FilterValue__c": "",
+    "SBQQ__Index__c": "",
+    "SBQQ__Operator__c": "less than",
+    "SBQQ__TestedField__c": "",
+    "SBQQ__TestedObject__c": ""
+  },
+  "References": [
+    {
+      "Name": "SBQQ__FilterVariable__r",
+      "ReferencedObject": "SBQQ__SummaryVariable__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "YAQPXu0000000L411a"
+      }
+    },
+    {
+      "Name": "SBQQ__Rule__r",
+      "ReferencedObject": "SBQQ__ProductRule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "2AQFSFd000000L4j0a"
+      }
+    },
+    {
+      "Name": "SBQQ__TestedAttribute__r",
+      "ReferencedObject": "SBQQ__ProductAttribute__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__TestedVariable__r",
+      "ReferencedObject": "SBQQ__SummaryVariable__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "YAQUXu0000000L411a"
+      }
+    }
+  ]
+}

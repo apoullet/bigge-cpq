@@ -1,0 +1,37 @@
+{
+  "Object": "SBQQ__ConfigurationAttribute__c",
+  "Fields": {
+    "GearsetDisplayName": "Material",
+    "GearsetExternalId__c": "0AQWNuJ200000L440a",
+    "Name": "Material",
+    "SBQQ__AppliedImmediately__c": "false",
+    "SBQQ__ApplyToProductOptions__c": "false",
+    "SBQQ__AutoSelect__c": "false",
+    "SBQQ__ColumnOrder__c": "1",
+    "SBQQ__DefaultField__c": "",
+    "SBQQ__DefaultObject__c": "",
+    "SBQQ__DisplayOrder__c": "",
+    "SBQQ__HiddenValues__c": "",
+    "SBQQ__Hidden__c": "false",
+    "SBQQ__Position__c": "Top",
+    "SBQQ__Required__c": "false",
+    "SBQQ__ShownValues__c": "",
+    "SBQQ__TargetField__c": "Material__c"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__Feature__r",
+      "ReferencedObject": "SBQQ__ProductFeature__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__Product__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    }
+  ]
+}

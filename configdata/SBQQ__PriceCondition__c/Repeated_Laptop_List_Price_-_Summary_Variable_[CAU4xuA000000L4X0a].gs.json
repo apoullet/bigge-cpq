@@ -1,0 +1,38 @@
+{
+  "Object": "SBQQ__PriceCondition__c",
+  "Fields": {
+    "GearsetDisplayName": "Repeated Laptop List Price - Summary Variable",
+    "GearsetExternalId__c": "CAU4xuA000000L4X0a",
+    "SBQQ__Field__c": "",
+    "SBQQ__FilterFormula__c": "",
+    "SBQQ__FilterType__c": "Value",
+    "SBQQ__Index__c": "",
+    "SBQQ__Object__c": "Summary Variable",
+    "SBQQ__Operator__c": "greater or equals",
+    "SBQQ__TestedFormula__c": "",
+    "SBQQ__Value__c": "10"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__FilterVariable__r",
+      "ReferencedObject": "SBQQ__SummaryVariable__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__Rule__r",
+      "ReferencedObject": "SBQQ__PriceRule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "AAU5av5000000L4Y0a"
+      }
+    },
+    {
+      "Name": "SBQQ__TestedVariable__r",
+      "ReferencedObject": "SBQQ__SummaryVariable__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "YAQNEv0000000L411a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "Object": "SBQQ__LookupQuery__c",
+  "Fields": {
+    "GearsetDisplayName": "Lookup Netbook Price - Quote Line - SBQQ__Product__c",
+    "GearsetExternalId__c": "YAUCB56000000L4U0a",
+    "SBQQ__LookupField__c": "IPProduct__c",
+    "SBQQ__MatchType__c": "Field Value",
+    "SBQQ__Operator__c": "equals",
+    "SBQQ__TestedField__c": "SBQQ__Product__c",
+    "SBQQ__TestedObject__c": "Quote Line",
+    "SBQQ__TestedValue__c": ""
+  },
+  "References": [
+    {
+      "Name": "SBQQ__PriceRule2__r",
+      "ReferencedObject": "SBQQ__PriceRule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "QAUBav5000000L4Y0a"
+      }
+    },
+    {
+      "Name": "SBQQ__ProductRule__r",
+      "ReferencedObject": "SBQQ__ProductRule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__TestedConfigurationAttribute__r",
+      "ReferencedObject": "SBQQ__ConfigurationAttribute__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    }
+  ]
+}

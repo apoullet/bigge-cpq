@@ -1,0 +1,15 @@
+{
+  "Object": "SBQQ__QuoteProcess__c",
+  "Fields": {
+    "GearsetDisplayName": "Test Process",
+    "GearsetExternalId__c": "IAAgNos000000d8n0a",
+    "Name": "Test Process",
+    "SBQQ__Default__c": "false",
+    "SBQQ__GuidedOnly__c": "false",
+    "SBQQ__ProductAutoSelected__c": "false",
+    "SBQQ__ProductConfigurationInitializer__c": "",
+    "SBQQ__ProductSearchExecutor__c": "",
+    "SBQQ__SortOrder__c": ""
+  },
+  "References": []
+}

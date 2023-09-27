@@ -1,0 +1,38 @@
+{
+  "Object": "SBQQ__PriceCondition__c",
+  "Fields": {
+    "GearsetDisplayName": "New Customer SD Card List Price - Quote",
+    "GearsetExternalId__c": "SAUWtuA000000L4X0a",
+    "SBQQ__Field__c": "",
+    "SBQQ__FilterFormula__c": "",
+    "SBQQ__FilterType__c": "Value",
+    "SBQQ__Index__c": "",
+    "SBQQ__Object__c": "Quote",
+    "SBQQ__Operator__c": "equals",
+    "SBQQ__TestedFormula__c": "SBQQ__Opportunity2__r.Type",
+    "SBQQ__Value__c": "New Customer"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__FilterVariable__r",
+      "ReferencedObject": "SBQQ__SummaryVariable__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__Rule__r",
+      "ReferencedObject": "SBQQ__PriceRule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "IAU0Yv5000000L4Y0a"
+      }
+    },
+    {
+      "Name": "SBQQ__TestedVariable__r",
+      "ReferencedObject": "SBQQ__SummaryVariable__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    }
+  ]
+}

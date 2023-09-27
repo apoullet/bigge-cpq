@@ -1,0 +1,41 @@
+{
+  "Object": "SBQQ__TemplateSection__c",
+  "Fields": {
+    "GearsetDisplayName": "Test",
+    "GearsetExternalId__c": "2AAJETx000000d841a",
+    "Name": "Test",
+    "SBQQ__BorderColor__c": "",
+    "SBQQ__BottomMargin__c": "0.0",
+    "SBQQ__ColumnHeaderHidden__c": "false",
+    "SBQQ__ConditionalPrintField__c": "",
+    "SBQQ__DisplayOrder__c": "",
+    "SBQQ__FilterField__c": "",
+    "SBQQ__FilterOperator__c": "",
+    "SBQQ__FilterValue__c": "",
+    "SBQQ__GroupField__c": "",
+    "SBQQ__KeepTogether__c": "Auto",
+    "SBQQ__KeepWithNext__c": "Auto",
+    "SBQQ__KeepWithPrevious__c": "",
+    "SBQQ__PageBreak__c": "",
+    "SBQQ__QuoteTotalsPrinted__c": "false",
+    "SBQQ__RollUpField__c": "",
+    "SBQQ__SummaryDisplay__c": "",
+    "SBQQ__TopMargin__c": "0.0"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__Content__r",
+      "ReferencedObject": "SBQQ__TemplateContent__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__Template__r",
+      "ReferencedObject": "SBQQ__QuoteTemplate__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "KAAtN6D000000d8o0a"
+      }
+    }
+  ]
+}

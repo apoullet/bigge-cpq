@@ -1,0 +1,31 @@
+{
+  "Object": "SBQQ__ProductAttribute__c",
+  "Fields": {
+    "GearsetDisplayName": "Color",
+    "GearsetExternalId__c": "IAQyFx4000000L4g0a",
+    "SBQQ__AppliedImmediately__c": "",
+    "SBQQ__ApplyToProductOptions__c": "",
+    "SBQQ__AutoSelect__c": "",
+    "SBQQ__HiddenValues__c": "",
+    "SBQQ__Hidden__c": "",
+    "SBQQ__Required__c": "",
+    "SBQQ__Sequence__c": "20.0",
+    "SBQQ__ShownValues__c": ""
+  },
+  "References": [
+    {
+      "Name": "SBQQ__AttributeSet__r",
+      "ReferencedObject": "SBQQ__AttributeSet__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "IAQ7Y5n200000L400a"
+      }
+    },
+    {
+      "Name": "SBQQ__Attribute__r",
+      "ReferencedObject": "SBQQ__ConfigurationAttribute__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "0AQXNuJ200000L440a"
+      }
+    }
+  ]
+}

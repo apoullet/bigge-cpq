@@ -1,0 +1,18 @@
+{
+  "Object": "SBQQ__Cost__c",
+  "Fields": {
+    "GearsetDisplayName": "KAQbVaU100000L470a",
+    "GearsetExternalId__c": "KAQbVaU100000L470a",
+    "SBQQ__Active__c": "true",
+    "SBQQ__UnitCost__c": "15.0"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__Product__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "UAAA6Da000000d8t10"
+      }
+    }
+  ]
+}

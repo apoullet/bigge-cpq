@@ -1,0 +1,16 @@
+{
+  "Object": "SBQQ__PricingGuidance__c",
+  "Fields": {
+    "GearsetDisplayName": "Test",
+    "GearsetExternalId__c": "EAU48Af000000L4L1a",
+    "Name": "Test",
+    "SBQQ__Description__c": "",
+    "SBQQ__Explanation__c": "",
+    "SBQQ__IncludePriorPurchases__c": "true",
+    "SBQQ__IsActive__c": "true",
+    "SBQQ__Summary__c": "",
+    "SBQQ__Type__c": "Range",
+    "SBQQ__Unit__c": ""
+  },
+  "References": []
+}

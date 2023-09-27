@@ -1,0 +1,34 @@
+{
+  "Object": "SBQQ__ConfigurationRule__c",
+  "Fields": {
+    "GearsetDisplayName": "Disable and remove electrical installation",
+    "GearsetExternalId__c": "AAQntj3000000L450a",
+    "SBQQ__Active__c": "true",
+    "SBQQ__AscendingNestedLevel__c": "",
+    "SBQQ__DescendingActionNesting__c": "",
+    "SBQQ__DescendingNestedLevel__c": ""
+  },
+  "References": [
+    {
+      "Name": "SBQQ__ProductFeature__r",
+      "ReferencedObject": "SBQQ__ProductFeature__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__ProductRule__r",
+      "ReferencedObject": "SBQQ__ProductRule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "EAQiwEd000000L4j0a"
+      }
+    },
+    {
+      "Name": "SBQQ__Product__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "UAAC5Da000000d8t10"
+      }
+    }
+  ]
+}

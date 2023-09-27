@@ -1,0 +1,37 @@
+{
+  "Object": "SBQQ__QuoteTerm__c",
+  "Fields": {
+    "GearsetDisplayName": "20.0 - Draft",
+    "GearsetExternalId__c": "EAA0cPx000000d8p0a",
+    "SBQQ__Active__c": "false",
+    "SBQQ__AdvancedCondition__c": "",
+    "SBQQ__Body__c": "",
+    "SBQQ__ConditionsMet__c": "All",
+    "SBQQ__Locked__c": "false",
+    "SBQQ__PrintOrder__c": "20.0",
+    "SBQQ__Status__c": "Draft"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__ParentTerm__r",
+      "ReferencedObject": "SBQQ__QuoteTerm__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__StandardTerm__r",
+      "ReferencedObject": "SBQQ__QuoteTerm__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "EAAzbPx000000d8p0a"
+      }
+    },
+    {
+      "Name": "SBQQ__TemplateContent__r",
+      "ReferencedObject": "SBQQ__TemplateContent__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "Object": "SBQQ__PriceCondition__c",
+  "Fields": {
+    "GearsetDisplayName": "Small Business SSD Special Price - Quote",
+    "GearsetExternalId__c": "CAUfwuA000000L4X0a",
+    "SBQQ__Field__c": "",
+    "SBQQ__FilterFormula__c": "",
+    "SBQQ__FilterType__c": "Value",
+    "SBQQ__Index__c": "",
+    "SBQQ__Object__c": "Quote",
+    "SBQQ__Operator__c": "less than",
+    "SBQQ__TestedFormula__c": "SBQQ__Account__r.NumberOfEmployees",
+    "SBQQ__Value__c": "50"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__FilterVariable__r",
+      "ReferencedObject": "SBQQ__SummaryVariable__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__Rule__r",
+      "ReferencedObject": "SBQQ__PriceRule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "AAU0av5000000L4Y0a"
+      }
+    },
+    {
+      "Name": "SBQQ__TestedVariable__r",
+      "ReferencedObject": "SBQQ__SummaryVariable__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    }
+  ]
+}
